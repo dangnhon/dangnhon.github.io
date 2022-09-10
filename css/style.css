@@ -33,6 +33,21 @@ main {
     -30px 0px 40px rgba(0,0,0,0.2);
 }
 
+#coupon-banner {
+    background: salmon;
+    max-height: 15vh;
+}
+
+#coupon-text {
+    display: flex;
+    flex: 0 1 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
 #landing {
     background: #fff;
     max-height: 100vh;
