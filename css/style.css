@@ -35,7 +35,6 @@ main {
 
 #coupon-banner {
     background: salmon;
-    max-height: 15vh;
 }
 
 #coupon-text {
@@ -44,9 +43,26 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-right: 1rem;
-    padding-left: 1rem;
 }
+
+/* navbar stuff here, please re-use on all pages and tweak links for each individual page */
+
+#navbar {
+    padding: 1rem 1rem;
+    font-weight: bold;
+    margin: 0 0.25rem 0 0;
+    display: inline-block;
+}
+
+.navbar-links {
+    text-decoration: none;
+    border-right: solid 2px #fff;
+    border-color: #333;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+/* end navbar stuff */
 
 #landing {
     background: #fff;
